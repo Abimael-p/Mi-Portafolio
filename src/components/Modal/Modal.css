@@ -1,0 +1,35 @@
+.modal-id {
+  position: fixed;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: black;
+  right: 0;
+  height: 60vh;
+  width: 50%;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+}
+
+.modal_layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.modal_layout li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.modal_layout a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.modal_layout a:hover {
+  color: gray;
+}

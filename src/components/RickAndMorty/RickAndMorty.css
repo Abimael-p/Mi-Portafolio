@@ -1,0 +1,53 @@
+.container-proyect-rick-and-morty {
+  position: relative;
+  width: 50%;
+  padding: 1vh;
+  height: 60vh;
+}
+
+.container-proyect-rick-and-morty img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1vh;
+}
+
+.container-content-rick-and-morty {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1vh;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(5, 5, 5, 0.753);
+  color: aliceblue;
+}
+
+.container-proyect-rick-and-morty:hover .container-content-rick-and-morty {
+  opacity: 1;
+}
+
+.btn-rick-and-morty button {
+  border-radius: 1vh;
+  border: 1px solid rgb(203, 197, 197);
+  width: 10vh;
+  height: 4vh;
+}
+
+.btn-rick-and-morty button:hover {
+  transform: translateY(-1px);
+  cursor: pointer;
+  color: aliceblue;
+  background-color: brown;
+}
+
+@media screen and (max-width: 794px) {
+  .container-proyect-rick-and-morty {
+    width: 90%;
+  }
+}

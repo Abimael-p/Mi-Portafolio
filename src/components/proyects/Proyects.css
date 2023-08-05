@@ -1,0 +1,16 @@
+.container-proyects h2 {
+  text-align: center;
+}
+
+.card-proyect {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media  screen and (max-width: 794px) {
+  .card-proyect {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

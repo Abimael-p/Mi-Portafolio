@@ -1,0 +1,79 @@
+.header_app {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.504);
+  color: aliceblue;
+  gap: 10%;
+  width: 100%;
+  z-index: 6;
+}
+
+.Home_Name {
+  font-size: 4vh;
+  color: rgb(26, 186, 222);
+  cursor: default;
+}
+
+.header_layout {
+  list-style: none;
+  display: flex;
+  gap: 2vh;
+  font-size: 16px;
+}
+
+.header_layout a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.header_layout li:hover {
+  cursor: pointer;
+  color: gray;
+  transform: translateY(-1px);
+}
+
+.container_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.contact_div {
+  gap: 2vh;
+}
+
+.btn-modal {
+  display: none;
+}
+
+@media  screen and (max-width: 794px) {
+  .header_layout {
+    display: none;
+  }
+
+  .contact_div {
+    display: none;
+  }
+
+  .btn-modal {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.504);
+    color: aliceblue;
+    border: none;
+    font-size: 5vh;
+  }
+
+  .btn-modal:hover {
+    transform: translateY(-2px);
+    color: gray;
+    cursor: pointer;
+  }
+}
+
