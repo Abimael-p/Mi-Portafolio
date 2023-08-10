@@ -40,12 +40,6 @@
   font-size: 5vh;
 }
 
-.content_me {
-  text-align: center;
-  font-size: 4vh;
-  color: aliceblue;
-}
-
 .btn-github {
   display: flex;
   justify-content: center;

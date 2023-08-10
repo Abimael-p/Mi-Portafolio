@@ -8,9 +8,9 @@ const VerificationApi = () => {
         <i className="bx bx-server"></i>
       </div>
       <p className="Api-verification">
-        Api de verificacion de email y contraseña, creada con Node.js, express y
-        Javascript, donde la actualizacion de la contraseña o el email estan
-        protegidos para mayor seguridad.
+        Api de verificación de email y contraseña, creada con Node.js, express y JavaScript, 
+        donde la actualización de la contraseña o el email están protegidos para mayor 
+        seguridad.
       </p>
       <div className="container-service-api-verification-btn">
         <div className="btn-service-api-verification">

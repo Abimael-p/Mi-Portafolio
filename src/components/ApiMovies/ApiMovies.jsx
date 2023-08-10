@@ -8,8 +8,8 @@ const ApiMovies = () => {
         <i className="bx bx-server"></i>
       </div>
       <p className="Api-movies">
-        Api de peliculas creada con Node.js, express y Javascript, donde cada
-        pelicula tiene muchos actores, muchos generos, muchos directores.
+        Api de películas creada con Node.js, express y JavaScript, donde cada película tiene 
+        muchos actores, muchos géneros, muchos directores.
       </p>
       <div className="container-service-api-movies-btn">
         <div className="btn-service-api-movies">

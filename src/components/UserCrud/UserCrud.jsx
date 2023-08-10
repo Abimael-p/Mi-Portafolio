@@ -8,7 +8,7 @@ const UserCrud = () => {
         <i className="bx bx-server"></i>
       </div>
       <p className="Api-crud">
-        Api creada con Node.js, express y Javascript, donde se puede ver, crear,
+        Api creada con Node.js, express y JavaScript, donde se puede ver, crear,
         eliminar, actualizar y llamar por id a usuarios
       </p>
       <div className="container-service-api-btn">

@@ -14,11 +14,6 @@ const Presentation = () => {
           </p>
           <p>desarrollador Back-End</p>
         </div>
-        <div className="content_me">
-          <p>
-            Apasionado con un enfoque en soluciones tecnológicas y eficiencia
-          </p>
-        </div>
         <div className="btn-github">
           <a href="https://github.com/Abimael-p">
             <button>Ver Portafolio</button>

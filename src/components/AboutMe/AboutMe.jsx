@@ -14,7 +14,7 @@ const AboutMe = () => {
         <h4>Desarrollador Back-End</h4>
         <p>
           {" "}
-          Un apacionado y dedicado a la informática y la programación.
+          Un apasionado y dedicado a la informática y la programación.
           Comprometido con cada proyecto, busco constantemente oportunidades
           para mejorar mis habilidades y ofrecer soluciones tecnológicas
           eficientes.

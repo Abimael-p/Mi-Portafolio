@@ -6,7 +6,7 @@ import "./MyServices.css";
 const MyServices = () => {
   return (
     <section id="myservice" className="services-api">
-      <h2>Mis Servidores</h2>
+      <h2>Mis Back-End</h2>
       <div className="container-card-service">
         <div className="card-service">
           <div className="service-1">

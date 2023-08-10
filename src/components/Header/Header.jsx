@@ -28,10 +28,10 @@ const Header = () => {
             <a href="#Aboutme">Sobre Mi</a>
           </li>
           <li>
-            <a href="#myservice">Servidores</a>
+            <a href="#myservice">Back-End</a>
           </li>
           <li>
-            <a href="#proyect">Proyectos</a>
+            <a href="#proyect">Front-End</a>
           </li>
           <li>
             <a href="#contact">Contacto</a>

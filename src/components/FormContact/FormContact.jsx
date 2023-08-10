@@ -33,7 +33,7 @@ function FormContact() {
       ref={refForm}
       onSubmit={handleSubmit}
     >
-      <h2>Contactame</h2>
+      <h2>Contáctame</h2>
       <div className="container-email-name">
         <div className="fied-name">
           <input
