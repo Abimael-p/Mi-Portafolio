@@ -34,28 +34,3 @@
   box-shadow: 1vh 1vh 0.7vh 1vh;
 }
 
-.service-2 {
-  background-color: white;
-  border-radius: 3vh;
-  border: 1px solid black;
-  width: 50vh;
-  height: 60vh;
-}
-
-.service-2:hover {
-  transform: translateY(-3px);
-  box-shadow: 1vh 1vh 0.7vh 1vh;
-}
-
-.service-3 {
-  background-color: white;
-  border-radius: 3vh;
-  border: 1px solid black;
-  width: 50vh;
-  height: 60vh;
-}
-
-.service-3:hover {
-  transform: translateY(-3px);
-  box-shadow: 1vh 1vh 0.7vh 1vh;
-}
