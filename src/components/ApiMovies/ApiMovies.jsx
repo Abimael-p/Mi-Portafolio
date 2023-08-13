@@ -14,12 +14,12 @@ const ApiMovies = () => {
       <div className="container-service-api-movies-btn">
         <div className="btn-service-api-movies">
           <a href="https://api-movies-953k.onrender.com/">
-            <button>Ver doct</button>
+            <button>Ver servicio</button>
           </a>
         </div>
         <div className="btn-service-api-movies">
           <a href="https://www.postman.com/bold-comet-805925/workspace/movies-db/overview">
-            <button>Ver servicio</button>
+            <button>Ver doct</button>
           </a>
         </div>
       </div>

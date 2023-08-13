@@ -15,12 +15,12 @@ const VerificationApi = () => {
       <div className="container-service-api-verification-btn">
         <div className="btn-service-api-verification">
           <a href="https://api-user-verification-db.onrender.com/">
-            <button>Ver doct</button>
+            <button>Ver servicio</button>
           </a>
         </div>
         <div className="btn-service-api-verification">
           <a href="https://www.postman.com/bold-comet-805925/workspace/veryfication-api/overview">
-            <button>Ver servicio</button>
+            <button>Ver doct</button>
           </a>
         </div>
       </div>

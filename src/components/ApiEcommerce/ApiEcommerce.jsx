@@ -14,13 +14,13 @@ const ApiEcommerce = () => {
       </p>
       <div className="container-service-api-ecommerce-btn">
         <div className="btn-service-api-ecommerce">
-          <a href="https://api-movies-953k.onrender.com/">
-            <button>Ver doct</button>
+          <a href="https://api-ecommerce-djqa.onrender.com">
+            <button>Ver servicio</button>
           </a>
         </div>
         <div className="btn-service-api-ecommerce">
-          <a href="https://www.postman.com/bold-comet-805925/workspace/movies-db/overview">
-            <button>Ver servicio</button>
+          <a href="https://www.postman.com/bold-comet-805925/workspace/ecommerce-api">
+            <button>Ver doct</button>
           </a>
         </div>
       </div>

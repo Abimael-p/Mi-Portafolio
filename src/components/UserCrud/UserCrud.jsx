@@ -14,12 +14,12 @@ const UserCrud = () => {
       <div className="container-service-api-btn">
         <div className="btn-service-api">
           <a href="https://api-crud-users-5871.onrender.com/">
-            <button>Ver doct</button>
+            <button>Ver servicio</button>
           </a>
         </div>
         <div className="btn-service-api">
           <a href="https://www.postman.com/bold-comet-805925/workspace/crud-users">
-            <button>Ver servicio</button>
+            <button>Ver doct</button>
           </a>
         </div>
       </div>
