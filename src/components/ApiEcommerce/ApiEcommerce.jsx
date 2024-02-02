@@ -1,4 +1,4 @@
-import "./AppointmentApp.css";
+import "./appointmentApp.css";
 
 const AppointmentApp = () => {
     return (
