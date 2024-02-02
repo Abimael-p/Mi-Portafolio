@@ -1,17 +1,17 @@
-.container-proyect-appointmentApp {
+.container-proyect-ecommerce {
   position: relative;
   width: 50%;
   padding: 1vh;
   height: 60vh;
 }
 
-.container-proyect-appointmentApp img {
+.container-proyect-ecommerce img {
   width: 100%;
   height: 100%;
   border-radius: 1vh;
 }
 
-.container-content-appointmentApp {
+.container-content-ecommerce {
   position: absolute;
   top: 0;
   left: 0;
@@ -28,18 +28,18 @@
   color: aliceblue;
 }
 
-.container-proyect-appointmentApp:hover .container-content-appointmentApp {
+.container-proyect-ecommerce:hover .container-content-ecommerce {
   opacity: 1;
 }
 
-.btn-appointmentApp button {
+.btn-ecommerce button {
   border-radius: 1vh;
   border: 1px solid rgb(203, 197, 197);
   width: 10vh;
   height: 4vh;
 }
 
-.btn-appointmentApp button:hover {
+.btn-ecommerce button:hover {
   transform: translateY(-1px);
   cursor: pointer;
   color: aliceblue;
@@ -47,7 +47,7 @@
 }
 
 @media screen and (max-width: 794px) {
-  .container-proyect-appointmentApp {
+  .container-proyect-ecommerce {
     width: 90%;
   }
 }

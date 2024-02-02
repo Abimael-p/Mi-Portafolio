@@ -1,22 +1,23 @@
-import "./AppointmentApp.css";
+import "./ApiEcommerce.css";
 
 const AppointmentApp = () => {
     return (
-      <div className="container-proyect-appointmentApp">
+      <div className="container-proyect-ecommerce">
         <img
-          src="https://i.ibb.co/kq5jZKF/Appointment-App.png"
-          alt="AppointmentApp"
+          src="https://ibb.co/hf5hdyd"
+          alt="Ecommerce"
         />
-        <div className="container-content-appointmentApp">
-          <h3>Appointment App</h3>
+        <div className="container-content-ecommerce">
+          <h3>Ecommerce</h3>
           <p>
-          "En el apasionante mundo de la simulación de 'nocountry', hemos creado una aplicación innovadora para gestionar 
-          citas con especialistas. Nuestra plataforma permite a los clientes programar 
-          fácilmente citas con los especialistas disponibles, brindando una experiencia 
-          de usuario fluida y eficiente.
+          Ecommerce: Una potente app de React que simula un inicio de sesión de usuarios, 
+          permitiéndoles acceder a sus compras y perfiles. Además, ofrece la opción de comprar 
+          productos con la posibilidad de elegir la cantidad deseada. La app también cuenta con 
+          funcionalidades de filtrado, permitiendo a los usuarios buscar productos por nombre o 
+          categoría.
           </p>
-          <div className="btn-appointmentApp">
-            <a href="https://appointment-app-chi.vercel.app/">
+          <div className="btn-ecommerce">
+            <a href="https://ecommerce-app-ecapp.netlify.app/">
               <button>Visitar</button>
             </a>
           </div>
