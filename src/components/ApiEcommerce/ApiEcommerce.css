@@ -1,53 +1,42 @@
-.container-proyect-ecommerce {
-  position: relative;
-  width: 50%;
-  padding: 1vh;
-  height: 60vh;
-}
-
-.container-proyect-ecommerce img {
-  width: 100%;
-  height: 100%;
-  border-radius: 1vh;
-}
-
-.container-content-ecommerce {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 1vh;
-  opacity: 0;
+.container-content-api-ecommerce {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
   text-align: center;
-  background-color: rgba(5, 5, 5, 0.753);
-  color: aliceblue;
 }
 
-.container-proyect-ecommerce:hover .container-content-ecommerce {
-  opacity: 1;
+.container-i-ico-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 8vh;
 }
 
-.btn-ecommerce button {
+.Api-ecommerce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.container-service-api-ecommerce-btn {
+  display: flex;
+  gap: 1vh;
+}
+
+.btn-service-api-ecommerce button {
   border-radius: 1vh;
-  border: 1px solid rgb(203, 197, 197);
-  width: 10vh;
+  border: 1px solid black;
+  font-size: 2vh;
+  width: 16vh;
   height: 4vh;
 }
 
-.btn-ecommerce button:hover {
+.btn-service-api-ecommerce button:hover {
   transform: translateY(-1px);
+  background-color: rgb(156, 158, 166);
   cursor: pointer;
-  color: aliceblue;
-  background-color: brown;
-}
-
-@media screen and (max-width: 794px) {
-  .container-proyect-ecommerce {
-    width: 90%;
-  }
 }
