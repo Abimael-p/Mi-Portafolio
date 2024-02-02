@@ -35,6 +35,10 @@ const Skills = () => {
               <i className="bx bxl-css3"></i>
               <p>CSS3</p>
             </li>
+            <li>
+              <i class='bx bxl-mongodb'></i>
+              <p>MongoDB</p>
+            </li>
           </ul>
         </div>
       </div>
