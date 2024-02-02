@@ -1,31 +1,28 @@
-import "./ApiEcommerce.css";
+import "./AppointmentApp.css";
 
-const ApiEcommerce = () => {
-  return (
-    <div className="container-content-api-ecommerce">
-      <h2>Api-Ecommerce</h2>
-      <div className="container-i-ico-service">
-        <i className="bx bx-server"></i>
-      </div>
-      <p className="Api-ecommerce">
-        Api de Ecommerce creada con Node.js, express y JavaScript, donde se compone de 
-        Usuarios y Autenticación, Productos y Categorías, Compras, Gestión de Imágenes, y 
-        Gestión de Inventarios.
-      </p>
-      <div className="container-service-api-ecommerce-btn">
-        <div className="btn-service-api-ecommerce">
-          <a href="https://api-ecommerce-djqa.onrender.com">
-            <button>Ver servicio</button>
-          </a>
-        </div>
-        <div className="btn-service-api-ecommerce">
-          <a href="https://www.postman.com/bold-comet-805925/workspace/ecommerce-api">
-            <button>Ver doct</button>
-          </a>
+const AppointmentApp = () => {
+    return (
+      <div className="container-proyect-appointmentApp">
+        <img
+          src="https://i.ibb.co/kq5jZKF/Appointment-App.png"
+          alt="AppointmentApp"
+        />
+        <div className="container-content-appointmentApp">
+          <h3>Appointment App</h3>
+          <p>
+          "En el apasionante mundo de la simulación de 'nocountry', hemos creado una aplicación innovadora para gestionar 
+          citas con especialistas. Nuestra plataforma permite a los clientes programar 
+          fácilmente citas con los especialistas disponibles, brindando una experiencia 
+          de usuario fluida y eficiente.
+          </p>
+          <div className="btn-appointmentApp">
+            <a href="https://appointment-app-chi.vercel.app/">
+              <button>Visitar</button>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  );
-};
-
-export default ApiEcommerce;
+    );
+  };
+  
+  export default AppointmentApp;

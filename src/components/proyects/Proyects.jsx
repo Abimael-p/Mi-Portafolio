@@ -3,6 +3,7 @@ import FortuneCookies from "../FortuneCookies/FortuneCookies";
 import RickAndMorty from "../RickAndMorty/RickAndMorty";
 import SkyWatch from "../SkyWatch/SkyWatch";
 import UsersAdmin from "../UsersAdmin/UsersAdmin";
+import AppointmentApp from "../AppointmentApp/AppointmentApp";
 import "./Proyects.css";
 
 const Proyects = () => {
@@ -15,6 +16,7 @@ const Proyects = () => {
         <Ecommerce />
         <FortuneCookies />
         <UsersAdmin />
+        <AppointmentApp />
       </div>
     </section>
   );
