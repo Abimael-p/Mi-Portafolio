@@ -26,7 +26,7 @@ const AboutMe = () => {
           oportunidad de trabajar juntos en el futuro!
         </p>
         <div className="btn-downloand-CV">
-            <a href="https://drive.google.com/file/d/1Qi6sgw9FdSage2pnaTc5h3PiO10aahaF/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/19D9tAkKCzfXdg2yQfka1F8YuhjkJMVyO/view?usp=sharing">
                 <button> Descargar CV </button>
             </a>
         </div>
