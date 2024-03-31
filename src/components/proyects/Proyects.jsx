@@ -8,7 +8,7 @@ import "./Proyects.css";
 
 const Proyects = () => {
   return (
-    <section id="proyect" className="container-proyects">
+    <section className="container-proyects">
       <h2>Mis Front-End</h2>
       <div className="card-proyect">
         <SkyWatch />

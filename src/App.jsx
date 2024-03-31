@@ -11,25 +11,26 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <article>
+      <div className="progress-app"></div>
       <header>
         <Header />
       </header>
-      <section>
+      <section className="briefcase-about-me">
         <Presentation />
       </section>
-      <section>
+      <section className="briefcase-about-me">
         <AboutMe />
       </section>
-      <section>
+      <section className="briefcase-about-me">
         <Skills />
       </section>
-      <section>
+      <section className="briefcase-about-me">
         <MyServices />
       </section>
-      <section>
+      <section className="proyect-reveal">
         <Proyects />
       </section>
-      <section>
+      <section className="briefcase-about-me">
         <FormContact />
       </section>
       <footer>

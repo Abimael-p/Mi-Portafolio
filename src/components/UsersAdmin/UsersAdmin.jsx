@@ -2,7 +2,7 @@ import "./UsersAdmin.css";
 
 const UsersAdmin = () => {
   return (
-    <div className="container-proyect-users-admin">
+    <div id="proyect" className="container-proyect-users-admin">
       <img src="https://i.ibb.co/J7ZVyrs/UserAmid.png" alt="Users Admin" />
       <div className="container-content-users-admin">
         <h3>Users Admin</h3>

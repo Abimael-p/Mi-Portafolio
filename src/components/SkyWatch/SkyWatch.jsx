@@ -2,7 +2,7 @@ import "./SkyWatch.css";
 
 const SkyWatch = () => {
   return (
-    <div className="container-proyect-skywatch">
+    <div id="proyect" className="container-proyect-skywatch">
       <img src="https://i.ibb.co/rt3CYVc/SkyWatch.png" alt="Sky Watch" />
       <div className="container-content-skywatch">
         <h3>Sky Watch</h3>

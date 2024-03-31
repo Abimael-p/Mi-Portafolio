@@ -2,7 +2,7 @@ import "./RickAndMorty.css";
 
 const RickAndMorty = () => {
   return (
-    <div className="container-proyect-rick-and-morty">
+    <div id="proyect" className="container-proyect-rick-and-morty">
       <img
         src="https://i.ibb.co/JsTjhB1/Rich-And-Morty.png"
         alt="rick and morty"

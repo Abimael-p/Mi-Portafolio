@@ -2,7 +2,7 @@ import "./Ecommerce.css";
 
 const Ecommerce = () => {
   return (
-    <div className="container-proyect-ecommerce">
+    <div id="proyect" className="container-proyect-ecommerce">
       <img src="https://i.ibb.co/xHvPgDg/Ecommerce.png" alt="Ecommerce" />
       <div className="container-content-ecommerce">
         <h3>Ecommerce</h3>

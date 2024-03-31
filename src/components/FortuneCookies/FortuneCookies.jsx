@@ -2,7 +2,7 @@ import "./FortuneCookies.css";
 
 const FortuneCookies = () => {
   return (
-    <div className="container-proyect-fortune-cookies">
+    <div id="proyect" className="container-proyect-fortune-cookies">
       <img src="https://i.ibb.co/myXprWY/Fortune-Cookies.png" alt="Fortune-Cookies" />
       <div className="container-content-fortune-cookies">
         <h3>Fortune Cookies</h3>
