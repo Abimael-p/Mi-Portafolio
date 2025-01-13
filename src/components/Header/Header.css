@@ -1,79 +1,58 @@
 .header_app {
-  position: fixed;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Instrument Serif", serif;
+  font-size: 3.4vh;
+  height: 9vh;
+  background: #1A1E38;
+}
+
+.content_logo {
+  display: flex;
   justify-content: center;
   align-items: center;
-
-  background-color: rgba(0, 0, 0, 0.504);
-  color: aliceblue;
-  gap: 10%;
-  width: 100%;
-  z-index: 6;
+  height: 9vh;
+  width: 14vh;
 }
 
-.Home_Name {
-  font-size: 4vh;
-  color: rgb(26, 186, 222);
-  cursor: default;
+.logo {
+  width: 7vh;
 }
 
-.header_layout {
+.list_content {
+  display: flex;
+  height: 7vh;
+}
+
+.list_content ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
-  display: flex;
-  gap: 2vh;
-  font-size: 16px;
+  gap: 8vh;
+  width: 60vh;
+  margin: 0;
+  color: #F5F3F3;
 }
 
-.header_layout a {
-  color: aliceblue;
-  text-decoration: none;
-}
-
-.header_layout li:hover {
-  cursor: pointer;
-  color: gray;
-  transform: translateY(-1px);
-}
-
-.container_header {
+.list_content div {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2vh;
+  width: 16vh;
 }
 
-.contact_div {
-  gap: 2vh;
+.list_content div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Instrument Serif", serif;
+  font-size: 3.4vh;
+  color: #040404;
+  background: #5D9B1B;
+  width: 13vh;
+  height: 5vh;
+  border-radius: 1.5vh;
+  border: none;
 }
-
-.btn-modal {
-  display: none;
-}
-
-@media  screen and (max-width: 794px) {
-  .header_layout {
-    display: none;
-  }
-
-  .contact_div {
-    display: none;
-  }
-
-  .btn-modal {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.504);
-    color: aliceblue;
-    border: none;
-    font-size: 5vh;
-  }
-
-  .btn-modal:hover {
-    transform: translateY(-2px);
-    color: gray;
-    cursor: pointer;
-  }
-}
-
