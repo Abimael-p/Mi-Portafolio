@@ -11,7 +11,7 @@ const AboutMe = () => {
         <h2>
           ¡Hola! Soy <b>Abimael Junior Pacheco Cárdenas</b>
         </h2>
-        <h4>Desarrollador Back-End</h4>
+        <h4>Desarrollador Full Stack</h4>
         <p>
           {" "}
           Un apasionado y dedicado a la informática y la programación.
