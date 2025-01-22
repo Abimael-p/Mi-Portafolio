@@ -12,7 +12,7 @@ const Presentation = () => {
           <p>
             <b>Abimael Pacheco,</b>
           </p>
-          <p>desarrollador Back-End</p>
+          <p>Desarrollador Full Stack</p>
         </div>
         <div className="btn-github">
           <a href="https://github.com/Abimael-p">
