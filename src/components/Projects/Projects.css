@@ -1,0 +1,105 @@
+.section_project {
+    width: 100%;
+    height: 84vh;
+    margin: 0;
+    padding: 0;
+}
+
+.section_project h2 {
+    font-family: "Amaranth" serif;
+    text-align: center;
+    width: 50%;
+    color: #84FF00;
+}
+
+.section_project div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section_project div ul {
+    display: flex;
+    justify-content: center;
+    width: 120vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 1vh;
+}
+
+.section_project div ul li {
+    width: 0;
+    list-style: none;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .90;
+    transition: .5s ease;
+}
+
+.section_project div ul li:hover {
+    width: 70vh;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.section_project div ul li img {
+    width: 79vh;
+    height: 50vh;
+    image-rendering: auto;
+    border-radius: 1vh;
+}
+
+.section_project div ul li img:hover {
+    cursor: pointer;
+}
+
+.container_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17vh;
+    gap: 7vh;
+}
+
+.container_btn .detail_btn {
+    justify-content: end;
+    width: 100vh;
+}
+
+.detail_btn button {
+    font-family: "Roboto" serif;
+    font-size: 2.3vh;
+    text-align: center;
+    width: 16vh;
+    height: 3.5vh;
+    color: #333030;
+    border: none;
+    border-radius: 1vh;
+    background: #5D9B1B;
+}
+
+.detail_btn button:hover {
+    scale: 1.02;
+    cursor: pointer;
+    background: #507c21;
+}
+
+.briefcase_btn button {
+    font-family: "Roboto" serif;
+    font-size: 3vh;
+    width: 30vh;
+    height: 5vh;
+    color: #333030;
+    border: 1px solid #9DDD8B;
+    border-radius: 1vh;
+    background: #5D9B1B;
+}
+
+.briefcase_btn button:hover {
+    scale: 1.04;
+    cursor: pointer;
+    background: #507c21;
+}

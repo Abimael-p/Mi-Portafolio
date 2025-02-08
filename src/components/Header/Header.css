@@ -1,12 +1,16 @@
 .header_app {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Instrument Serif", serif;
   font-size: 3.4vh;
+  width: 100%;
   height: 9vh;
   background: #1A1E38;
+  z-index: 99;
 }
+
 
 .content_logo {
   display: flex;
@@ -31,9 +35,15 @@
   align-items: center;
   list-style: none;
   gap: 8vh;
-  width: 60vh;
+  width: 65vh;
   margin: 0;
   color: #F5F3F3;
+}
+
+.list_content ul li:hover {
+  color: #5D9B1B;
+  scale: 1.04;
+  cursor: pointer;
 }
 
 .list_content div {
@@ -55,4 +65,16 @@
   height: 5vh;
   border-radius: 1.5vh;
   border: none;
+}
+
+.list_content div button:hover {
+  background-color: #507c21;
+  scale: 1.04;
+  cursor: pointer;
+}
+
+/** Mode Lite **/
+
+.header_app.lite {
+  background: #8A8D9C;
 }

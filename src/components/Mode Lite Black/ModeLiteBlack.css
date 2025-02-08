@@ -1,0 +1,49 @@
+.button_lite_black {
+    position: fixed;
+    height: 9vh;
+    width: 14vh;
+    right: 0;
+    bottom: 0;
+    border-radius: 2vh 0 0 0;
+    box-shadow: 0px 8px 10px 9px #141725;
+    z-index: 78;
+}
+
+.button_lite_black button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 2vh 0 0 0;
+    background: #1A1E38;
+}
+
+.icon_selector {
+    width: 5vh;
+}
+
+.button_lite_black button:hover {
+    cursor: pointer;
+}
+
+.button_lite_black button:hover .icon_selector {
+    transform: scale(1.06);
+    filter: drop-shadow(2px 8px 14px #e8e8eb);
+}
+
+.icon_selector_black {
+    width: 5vh;
+}
+
+.button_lite_black button:hover .icon_selector_black {
+    transform: scale(1.06);
+    filter: drop-shadow(2px 8px 14px #1A1E38);
+}
+
+/** Mode Lite **/
+
+.button.lite {
+    background: #8A8D9C;
+}

@@ -1,0 +1,65 @@
+Form {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    gap: 5vh;
+}
+
+.container-email-name {
+    display: flex;
+    gap: 5vh;
+}
+
+.fied-name input {
+    font-family: "robota";
+    font-size: 2.34vh;
+    width: 36vh;
+    height: 5vh;
+    padding: 1vh;
+    border: none;
+    border-radius: 1vh;
+}
+
+.field-email input {
+    font-family: "robota";
+    font-size: 2.34vh;
+    width: 43vh;
+    height: 5vh;
+    padding: 1vh;
+    border: none;
+    border-radius: 1vh;
+}
+
+.field-theme input {
+    font-family: "robota";
+    font-size: 2.34vh;
+    width: 67vh;
+    height: 5vh;
+    padding: 1vh;
+    border: none;
+    border-radius: 1vh;
+}
+
+.field-message textarea {
+    font-family: "robota";
+    font-size: 2.34vh;
+    width: 84vh;
+    height: 22vh;
+    padding: 1vh;
+    border: none;
+    border-radius: 1vh;
+}
+
+.container-btn-send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-btn-send button {
+    width: 24vh;
+    height: 4vh;
+    border: none;
+    border-radius: 1vh;
+    background: #5D9B1B;
+}

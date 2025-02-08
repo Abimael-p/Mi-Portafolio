@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header_app">
       <div className="content_logo">
-        <LogoIcon className="logo"/>
+        <LogoIcon className="logo" />
       </div>
       <div className="list_content">
         <ul>

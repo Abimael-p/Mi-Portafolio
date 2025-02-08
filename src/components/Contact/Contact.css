@@ -1,0 +1,18 @@
+.contact_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact_section h2 {
+    font-family: "roboto" serif;
+    font-size: 5vh;
+    color: #9DDD8B;
+}
+
+.contact_section div {
+    display: flex;
+    gap: 4vh;
+}
