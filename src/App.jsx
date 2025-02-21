@@ -18,16 +18,16 @@ function App() {
   }
 
   return (
-    <article>
+    <article className="wrapper">
       <Header />
       <ModeLiteBlack modeLite={modeLite} buttonMode={buttonModeLite} />
-      <section>
+      <section className="section">
         <AboutMe />
       </section>
-      <section>
+      <section className="section">
         <Projects />
       </section>
-      <footer>
+      <footer className="section">
         <section>
           <Contact />
         </section>

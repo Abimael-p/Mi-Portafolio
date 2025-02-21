@@ -43,6 +43,7 @@
 }
 
 .content_aboutme {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: end;

@@ -1,6 +1,26 @@
 body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
     background: #1A1E38;
     letter-spacing: 0.2vh;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.section {
+    height: 100vh;
+    scroll-snap-align: start;
 }
 
 body.lite {
